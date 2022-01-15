@@ -1,0 +1,22 @@
+{
+  "name": "11ty-simple-starter-sass",
+  "version": "1.0.0",
+  "description": "A very bare-bones 11ty starter using sass for styling",
+  "main": ".eleventy.js",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "sass": "^1.48.0"
+  },
+  "overrides": {
+    "debug": "^4.3.1"
+  }
+}
